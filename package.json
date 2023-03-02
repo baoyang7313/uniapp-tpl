@@ -1,0 +1,101 @@
+{
+    "name": "项目基础脚手架、基础项目模板",
+    "version": "2.0.2",
+    "description": "整合的一套uniapp项目基础开发的Uview脚手架路由请求。官方群了解到非Nvue项目不建议使用uview2.0（有亿点bug），可以在码云处找到uview1.x版本。",
+    "main": "main.js",
+    "id": "chenmushan-template",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://gitee.com/ChenMuShan/uniapp-template"
+    },
+    "keywords": [
+        "uniapp",
+        "uview",
+        "uni-simple-router",
+        "api",
+        "基础模板"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "uni-read-pages": "^1.0.5",
+        "uni-simple-router": "^2.0.8-beta.4"
+    },
+    "uni-app": {
+        "scripts": {
+            "h5-dev": {
+                "title": "H5-开发服",
+                "BROWSER": "Chrome",
+                "env": {
+                    "UNI_PLATFORM": "h5",
+                    "BASE_API_URL": "http://dev.com"
+                },
+                "define": {
+                    "MP-DINGTALK": true
+                }
+            },
+            "h5-test": {
+                "title": "H5-测试服",
+                "BROWSER": "Chrome",
+                "env": {
+                    "UNI_PLATFORM": "h5",
+                    "BASE_API_URL": "http://test.com"
+                },
+                "define": {
+                    "MP-DINGTALK": true
+                }
+            },
+            "h5-pro": {
+                "title": "H5-正式服",
+                "BROWSER": "Chrome",
+                "env": {
+                    "UNI_PLATFORM": "h5",
+                    "BASE_API_URL": "http://pro.com"
+                },
+                "define": {
+                    "MP-DINGTALK": true
+                }
+            },
+            "weixin-dev": {
+                "title": "微信小程序-开发服",
+                "env": {
+                    "UNI_PLATFORM": "mp-weixin",
+                    "BASE_API_URL": "http://dev.com"
+                },
+                "define": {
+                    "MP-DINGTALK": true
+                }
+            },
+            "weixin-test": {
+                "title": "微信小程序-测试服",
+                "env": {
+                    "UNI_PLATFORM": "mp-weixin",
+                    "BASE_API_URL": "http://test.com"
+                },
+                "define": {
+                    "MP-DINGTALK": true
+                }
+            },
+            "weixin-pro": {
+                "title": "微信小程序-正式服",
+                "env": {
+                    "UNI_PLATFORM": "mp-weixin",
+                    "BASE_API_URL": "http://pro.com"
+                },
+                "define": {
+                    "MP-DINGTALK": true
+                }
+            }
+        }
+    },
+    "displayName": "项目基础脚手架、基础项目模板",
+    "dcloudext": {
+        "category": [
+            "uni-app前端模板",
+            "uni-app前端项目模板"
+        ]
+    }
+}
